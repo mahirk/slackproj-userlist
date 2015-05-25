@@ -13,8 +13,10 @@ app.get('/', function (req, res) {
       namelist[i] = channels[i].name;
     }
     res.locals.place = namelist;
-    res.send("My Channels:" + namelist);
+    res.send("My Channels: " + namelist);
   });
 });
 
 app.listen(8080);
+
+console.log("Visit port: 8080");
