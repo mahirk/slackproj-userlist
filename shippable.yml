@@ -4,3 +4,5 @@ language:
 # version numbers, testing against two versions of node
 node_js:
   - 0.10.25
+  
+script: true
