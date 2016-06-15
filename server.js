@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
       namelist[i] = channels[i].name;
     }
     res.locals.place = namelist;
-    res.send("My Channels: " + namelist);
+    res.send("My1 Channels: " + namelist);
   });
 });
 
